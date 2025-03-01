@@ -1,0 +1,80 @@
+::ng-deep body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(104, 36, 36)
+}
+
+::ng-deep .container.mt-5 {
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 90%;
+    display: flex;
+    align-items: center;
+  }
+
+  ::ng-deep .col-md-6{
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  ::ng-deep h2{
+    text-align: center;
+    font-size: 2.5rem;
+    width: 80%;
+  }
+
+  ::ng-deep .form-group > label{
+    text-align: center;
+    color: #555;
+    width: 80%;
+  }
+
+  ::ng-deep .form-group label{
+    display: block;
+    font-weight: bold;
+    padding: 5px 0;
+  }
+
+  ::ng-deep .form-group input.form-control{
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    justify-content: center;
+  }
+
+  ::ng-deep .form-group input.form-control:focus{
+    outline: solid 1px rgb(0, 153, 255);
+  }
+
+  .btn .btn-primary{
+    border: none;
+    padding: 10px 0;
+    width: 15%;
+    font-weight: bolder;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #555;
+}
+
+.btn .btn-secondary{
+    border: none;
+    padding: 10px 0;
+    width: 30%;
+    font-weight: bolder;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
